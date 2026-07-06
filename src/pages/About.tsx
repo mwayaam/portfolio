@@ -20,9 +20,9 @@ export default function About() {
             <h3 className="font-display fs-5 mb-3">Quick facts</h3>
             <ul className="text-mid ps-0 mb-0 list-unstyled">
               <li className="mb-2">📍 {profile.location}</li>
-              <li className="mb-2">💻 Currently learning: TypeScript & Bootstrap</li>
-              <li className="mb-2">🎯 Focused on: Frontend Development</li>
-              <li>☕ Fuelled by: (add your thing here)</li>
+              <li className="mb-2">💻 Currently learning: Flutter, GUI based systems</li>
+              <li className="mb-2">🎯 Focused on: AI + ML Developer</li>
+              <li>☕ Fuelled by: Coffee</li>
             </ul>
           </div>
         </div>
