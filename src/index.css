@@ -138,6 +138,32 @@ a {
   .ombre-blob {
     animation: none !important;
   }
+
+}
+@media (max-width: 576px) {
+  .navbar-nav.flex-row {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start !important;
+    scrollbar-width: none;
+  }
+  .navbar-nav.flex-row::-webkit-scrollbar {
+    display: none;
+  }
+  .navbar-brand {
+    font-size: 1rem !important;
+  }
+  .nav-link {
+    white-space: nowrap;
+    padding-inline: 0.6rem !important;
+  }
+}
+
+.display-3 {
+  font-size: clamp(2rem, 5vw + 1rem, 4.5rem) !important;
+}
+.display-6 {
+  font-size: clamp(1.5rem, 3vw + 1rem, 2.5rem) !important;
 }
 
 .glass {
@@ -269,4 +295,7 @@ textarea:focus-visible {
 
 [data-theme="light"] .theme-toggle-knob {
   transform: translateX(24px);
+}
+.container {
+  max-width: min(1320px, 92vw);
 }
