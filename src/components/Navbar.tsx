@@ -12,8 +12,6 @@ const links = [
 ];
 
 export default function Navbar() {
-  const { theme, toggleTheme } = useTheme();
-
   return (
     <nav
       className="navbar navbar-expand fixed-top glass-strong mx-auto mt-3"
